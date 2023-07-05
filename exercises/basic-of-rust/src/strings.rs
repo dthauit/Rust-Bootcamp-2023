@@ -9,7 +9,7 @@ fn exercise1(color: &str) -> String {
 fn exercise2() -> String {
     let mut s = String::from("hello");
     s.push(',');
-    s+=" world";
+    s.push_str(" world");
     s += "!";
     s
 }
